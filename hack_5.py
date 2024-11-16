@@ -31,27 +31,3 @@ def fn_hack_5(s):
     result = "".join(nuevo_texto) 
     print(result) 
     return result
-"""
-for txt in posicion: 
-        if len(txt) % 2 == 0:
-            if txt[0]==result[2]:
-                content = f"{txt[1]}" 
-                nuevo_texto.append(content)
-            elif txt[0]==result[4]:
-                if result[0] == "b":
-                    content = f"{txt[0]}-" 
-                    nuevo_texto.append(content)
-                else:
-                    content = f"{txt[0]}-{txt[1]}" 
-                    nuevo_texto.append(content)
-            elif txt[0] == result[6]:
-                if result[0] == "b":
-                    content = f"{txt[0]}{txt[1]}" 
-                    nuevo_texto.append(content)
-                else:
-                    content = f"{txt[0]}-" 
-                    nuevo_texto.append(content)
-            else: 
-                content = f"{txt[0]}{txt[1]}-"
-                nuevo_texto.append(content)
-    """
